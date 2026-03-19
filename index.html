@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
+  <meta charset="UTF-8">
   <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1 id="title">WELCOME TO NGUYỄN HOÀNG HẢI</h1>
+  <h1>
+    WELCOME TO <span class="name">HỌ TÊN SV</span>
+  </h1>
 
-<p><b>Profile:</b> SINH VIÊN CÔNG NGHỆ THÔNG TIN</p>
+  <p>
+    <span class="profile">Profile:</span> thông tin cá nhân + ảnh
+  </p>
 
-<script>
-  let name = prompt("Nhập tên của bạn:");
-  document.getElementById("title").innerText = "WELCOME TO " + name;
-</script>
+  <img src="avatar.jpg" alt="Ảnh cá nhân" class="avatar">
 
 </body>
 </html>
